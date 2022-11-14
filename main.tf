@@ -12,6 +12,7 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
+    # FIX Bugs
     organization = "Terraform-demo-z"
 
     workspaces {
